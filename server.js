@@ -64,7 +64,7 @@ const mongoDBConnectionString = 'mongodb://127.0.0.1:27017/LMS?directConnection=
   })
   .then(() => {
     app.listen(port, () => {
-      console.log(`Server is running on port ${port}`);
+      console.log(`Server is running on  ${port}`);
       
     });
   })
